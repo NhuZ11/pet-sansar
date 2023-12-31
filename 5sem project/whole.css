@@ -37,6 +37,11 @@ object-fit: cover;
 
 }
 
+.flex-container{
+  padding-left: 80px;
+  padding-right: 50px;
+}
+
 
 
 img{
@@ -47,9 +52,35 @@ img{
   padding-left: 80px;
   padding-right: 50px;
 }
+.thumbnail{
+  z-index: -1;
+  transition: all 0.3s;
+}
+.thumbnail:hover{
+  transform: scale(1.1);
+}
+
 
 .second-container .thumbnail{
   width: 300px;
   height: 350px;
   
+}
+
+
+.footer{
+  background-color: beige;
+ 
+  
+}
+hr.solid {
+  border-top: 2px solid #bbb;
+}
+.features{
+  padding-left: 80px;
+ padding-right: 50px;
+
+}
+.features a{
+  font-size: larger;
 }
